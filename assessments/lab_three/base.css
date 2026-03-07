@@ -85,18 +85,19 @@ img {
 .cards {
   display: grid;
   grid-template-areas: 
-    "card1 card2 card3"
-    "card4 card5 card6";
+    "card1 card1 card1"
+    "card2 card3 card4"
+    "card5 card5 card6";
   gap: 1rem;
 }
-
+/*
 .card1 { display: none; }
 .card2 { grid-area: card2; }
 .card3 { grid-area: card3; }
 .card4 { grid-area: card4; }
 .card5 { grid-area: card5; }
 .card6 { grid-area: card6; }
-
+*/
 
 /* Bonus Challenge - 2 EXTRA marks */ 
 /* make the layout responsive & mobile first design */ 
