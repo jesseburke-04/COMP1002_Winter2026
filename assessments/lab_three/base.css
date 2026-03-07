@@ -82,7 +82,7 @@ img {
 }
 
 /* Your Code Here! */ 
-.card {
+.cards {
   display: grid;
   grid-template-areas: 
     "card1 card2 card3"
@@ -90,6 +90,12 @@ img {
   gap: 1rem;
 }
 
+.card:nth-child(1) { display: none; }
+.card:nth-child(2) { grid-area: c2; }
+.card:nth-child(3) { grid-area: c3; }
+.card:nth-child(4) { grid-area: c4; }
+.card:nth-child(5) { grid-area: c5; }
+.card:nth-child(6) { grid-area: c6; }
 
 
 /* Bonus Challenge - 2 EXTRA marks */ 
