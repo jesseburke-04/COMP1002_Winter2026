@@ -82,13 +82,14 @@ img {
 }
 
 /* Your Code Here! */ 
-.cards {
+.card {
   display: grid;
   grid-template-areas: 
-    "card2 card2 card4"
-    "card5 card5 card6";
+    "card1 card2 card3"
+    "card4 card5 card6";
   gap: 1rem;
 }
+
 
 
 /* Bonus Challenge - 2 EXTRA marks */ 
