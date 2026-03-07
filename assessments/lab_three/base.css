@@ -90,7 +90,7 @@ img {
   gap: 1rem;
 }
 
-.card1 { grid-area: none; }
+.card1 { display: none; }
 .card2 { grid-area: card2; }
 .card3 { grid-area: card3; }
 .card4 { grid-area: card4; }
