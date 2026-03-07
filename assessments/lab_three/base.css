@@ -82,6 +82,14 @@ img {
 }
 
 /* Your Code Here! */ 
+.cards {
+  display: grid;
+  grid-template-areas: 
+    "card2 card2 card4"
+    "card5 card5 card6";
+  gap: 1rem;
+}
+
 
 /* Bonus Challenge - 2 EXTRA marks */ 
 /* make the layout responsive & mobile first design */ 
