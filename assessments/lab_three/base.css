@@ -82,16 +82,19 @@ img {
 }
 
 /* Your Code Here! */ 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
+.cards {  /* targets the cards secation */
+  display: grid; /* turns the cards section into a grid layout */
+  grid-template-columns: repeat(3, 1fr); /* creates 3 equal columns, each taking up 1 fraction of space */
+  grid-template-areas: /* creates the layout for each row */
     "card1 card1 card1"
     "card2 card3 card4"
     "card5 card5 card6";
-  gap: 1rem;
+  gap: 1rem; /* adds space between the cards */
+  margin-bottom: 1rem; /* adds space below the cards section */
 }
 
+/* the nth-child selector targets a specific card, and then grid-area tells the card
+where it should be place on the grid. */
 .card:nth-child(1) { grid-area: card1; }
 .card:nth-child(2) { grid-area: card2; }
 .card:nth-child(3) { grid-area: card3; }
