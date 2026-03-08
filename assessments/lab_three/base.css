@@ -88,7 +88,7 @@ img {
   grid-template-areas:
     "c1 c1 c1 c1 c1 c1"
     "c2 c2 c3 c3 c4 c4"
-    "c5 c5 c5 c6 c6 c6";
+    "c5 c5 c5 c5 c6 c6";
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
