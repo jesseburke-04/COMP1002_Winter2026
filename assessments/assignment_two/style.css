@@ -1,6 +1,7 @@
 :root {
   --text-font: Arial, sans-serif;
   --background-color: #f0f0f5;
+  box-sizing: border-box;
 }
 
 body {
@@ -25,5 +26,5 @@ header nav a {
   color: #a9a9ac;
   text-decoration: none;
   padding: 0 18px;
-  font-size: 12px;
+  font-size: 18px;
 }
