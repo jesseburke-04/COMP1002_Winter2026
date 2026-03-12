@@ -13,6 +13,7 @@ header {
   background-color: #131316;
   height: 60px;
   padding: 0;
+  margin: 0;
 }
 
 header nav {
@@ -26,5 +27,5 @@ header nav a {
   color: #a9a9ac;
   text-decoration: none;
   padding: 0 18px;
-  font-size: 18px;
+  font-size: 16px;
 }
