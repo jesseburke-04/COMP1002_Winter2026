@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #1d1d1e;
+  background-color: #212122;
   height: 50px;
 }
 
@@ -20,6 +20,7 @@ header nav {
   align-items: center;
   justify-content: center;
   height: 100%;
+  gap: 30px;
 }
 
 header nav a {
