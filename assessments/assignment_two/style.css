@@ -51,6 +51,7 @@ header nav a {
 /* Hero Heading */
 .hero h1 {
   font-size: 3rem;
+  font-weight: normal;
   margin-bottom: 15px;
 }
 
