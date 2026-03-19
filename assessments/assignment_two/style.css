@@ -35,7 +35,7 @@ header nav a {
 /* Styling Hero Section */
 .hero {
   background-image: url('phones.png');
-  background-size: 50%;
+  background-size: 10%;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 500px;
