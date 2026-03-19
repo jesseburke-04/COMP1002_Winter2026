@@ -79,7 +79,8 @@ header nav a {
 /* Add hover effect to the hero link */
 .hero a:hover {
   background-color: #4c4b4b;
-  transition: background-color 0.3s;
+  color: #e0dfdf;
+  transition: background-color 0.3s, color 0.3s;
 }     
 
 /* Product higlights section using grid */
