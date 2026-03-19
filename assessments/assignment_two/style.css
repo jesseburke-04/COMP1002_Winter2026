@@ -33,18 +33,45 @@ header nav a {
 }
 
 /* Styling Hero Section */
-.hero {background-image: url('Phones.png');
+.hero {
+  background-image: url('Phones.png');
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 500px;
-  padding: 2rem;
-  margin: 0;
+  margin: 1rem;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+/* Hero Heading */
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+/* Hero Paragraph */
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+/* Hero Link */
+.hero a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #111;
+  border: 1px solid #111;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
   text-align: center;
 }
 
