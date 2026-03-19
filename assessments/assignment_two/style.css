@@ -2,7 +2,7 @@
 
 :root {
   --text-font: Arial, sans-serif;
-  --background-color: #f0f0f5;
+  --background-color: #dddde1;
   box-sizing: border-box;
 }
 
@@ -51,17 +51,14 @@ header nav a {
 /* Hero Heading */
 .hero h1 {
   font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  padding: 2rem;
+  margin-bottom: 15px;
 }
 
 /* Hero Paragraph */
 .hero p {
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 15px;
   text-align: center;
-  margin: 0;
 }
 
 /* Hero Link */
