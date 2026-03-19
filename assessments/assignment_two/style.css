@@ -1,3 +1,5 @@
+/* Styling Assignment Two - using Flexbox and Grid layout */
+
 :root {
   --text-font: Arial, sans-serif;
   --background-color: #f0f0f5;
@@ -29,3 +31,29 @@ header nav a {
   padding: 0 18px;
   font-size: 16px;
 }
+
+/* Styling Hero Section */
+.hero {
+  background-image: url('phones.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #dfe3ea;
+  border-radius: 14px;
+  padding: 2rem;
+  margin: 1.5rem auto;
+  max-width: 1050px;
+}
+
+/* Product higlights section using grid */
+.product-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
