@@ -52,14 +52,15 @@ header nav a {
 .hero h1 {
   font-size: 56px;
   font-weight: normal;
-  margin-bottom: 10px;
+  color: #262525;
+  margin-bottom: 5px;
 }
 
 /* Hero Paragraph */
 .hero p {
   font-size: 1.2rem;
-  color: #212122;
-  margin-bottom: 10px;
+  color: #2a2a2a;
+  margin-bottom: 5px;
   text-align: center;
 }
 
@@ -67,9 +68,9 @@ header nav a {
 .hero a {
   font-size: 1rem;
   text-decoration: none;
-  color: #373636;
+  color: #4c4b4b;
   border: 1px solid #373636;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   text-align: center;
 }
