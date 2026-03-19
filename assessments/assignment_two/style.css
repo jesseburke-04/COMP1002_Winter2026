@@ -50,7 +50,7 @@ header nav a {
 
 /* Hero Heading */
 .hero h1 {
-  font-size: 60px;
+  font-size: 56px;
   font-weight: normal;
   margin-bottom: 10px;
 }
@@ -58,7 +58,8 @@ header nav a {
 /* Hero Paragraph */
 .hero p {
   font-size: 1.2rem;
-  margin-bottom: 15px;
+  color: #212122;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -66,9 +67,9 @@ header nav a {
 .hero a {
   font-size: 1rem;
   text-decoration: none;
-  color: #111;
-  border: 1px solid #111;
-  padding: 0.5rem 1.5rem;
+  color: #373636;
+  border: 1px solid #373636;
+  padding: 0.5rem 2rem;
   border-radius: 5px;
   text-align: center;
 }
