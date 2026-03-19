@@ -19,7 +19,7 @@
 
 // Fix the error in this code
 
-let name = Alex;
+let name = "Alex";
 console.log(name);
 
 </script>
@@ -33,7 +33,7 @@ console.log(name);
 
 // Fix the syntax error
 
-console.log JavaScript is fun!
+console.log ("JavaScript is fun"); 
 
 </script>
 
@@ -51,9 +51,9 @@ console.log JavaScript is fun!
 
 let button = document.querySelector(".btn")
 
-button.addEventListener("click" function(){
-console.log("Button clicked!")
-})
+button.addEventListener("click", function(){
+console.log("Button clicked!");
+});
 
 </script>
 
@@ -64,11 +64,11 @@ console.log("Button clicked!")
 <p>Before running the code, predict what will appear in the console.</p>
 
 <script>
-
+// creating a variable called score and storing a number vlaue of 10 
 let score = 10
-
+// add 5 to 10 = 15 
 score = score + 5
-
+//show the value in the console 
 console.log(score)
 
 </script>
@@ -83,7 +83,11 @@ console.log(score)
 
 <script>
 
-// Write your code below
+let testButton = document.getElementById("testBtn"); 
+
+testButton.addEventListener("click", function(){
+    console.log("JavaScript works!"); 
+}); 
 
 </script>
 

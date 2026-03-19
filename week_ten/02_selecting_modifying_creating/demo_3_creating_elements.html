@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Demo 3 – Creating Elements (Student)</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+            background: #f5f7fb
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px
+        }
+
+        button {
+            padding: 8px 12px;
+            margin: 6px
+        }
+
+        input {
+            padding: 6px
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h1>Creating Elements Demo</h1>
+
+        <input type="text" id="task-input" placeholder="Enter task">
+        <button id="add-btn">Add Task</button>
+
+        <ul id="task-list"></ul>
+
+    </section>
+
+    <script>
+        //store references to the elements we need 
+        let taskInput = document.querySelector("#task-input"); 
+        let taskList = document.querySelector("#task-list"); 
+        let addTaskButton = document.querySelector("#add-btn"); 
+
+        //listen for a click on the button, then create new elements containing the task and append to the ul 
+
+        addTaskButton.addEventListener("click", function() {
+            //Step One - create a new element 
+            newListItem = document.createElement("li"); 
+            //Step Two - add content to the new element 
+            if(taskInput.value.trim()=== "" ) {
+                newListItem.textContent = "New Task"; 
+            }
+            else {
+                newListItem.textContent = taskInput.value; 
+            }
+            //insert the new element into the page 
+            taskList.appendChild(newListItem); 
+
+            //clear the input box after the adding the task 
+            taskInput.value = ""; 
+        }); 
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

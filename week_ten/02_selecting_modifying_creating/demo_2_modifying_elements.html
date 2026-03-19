@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Demo 2 – Modifying Elements (Student)</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+            background: #f5f7fb
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px
+        }
+
+        button {
+            padding: 8px 12px;
+            margin: 6px
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h1 id="heading">Original Heading</h1>
+        <p id="message">This paragraph will change.</p>
+
+        <button id="text-btn">Change Text</button>
+        <button id="style-btn">Change Style</button>
+
+    </section>
+
+    <script>
+        //select the elements once and store references in variables 
+        let heading = document.querySelector("#heading"); 
+        let message = document.querySelector("#message"); 
+        let textButton = document.querySelector("#text-btn"); 
+        let styleButton = document.querySelector("#style-btn"); 
+
+
+        //change the text using textContent and innerHTML property 
+        textButton.addEventListener("click", function() {
+            //modify the elements - modify text and html 
+            heading.textContent = "The heading has been changed!"; 
+            message.innerHTML = "This paragraph now has <strong> bold </strong> text!"; 
+        }); 
+
+
+        //change styles of heading  with the style property 
+        styleButton.addEventListener('click', function(){
+            heading.style.color = "#BADA55"; 
+            heading.style.backgroundColor = "#C0FFEE";
+            heading.style.padding = "10px";  
+        }); 
+
+        //change styles of message with the style property 
+        styleButton.addEventListener('click', function() {
+            message.style.borderLeft = "thick solid #000"; 
+            message.style.padding = "2rem"; 
+
+        }); 
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
