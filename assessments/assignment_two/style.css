@@ -32,6 +32,11 @@ header nav a {
   font-size: 16px;
 }
 
+header nav a:hover {
+  color: #efefef;
+  transition: color 0.3s;
+}
+
 /* Styling Hero Section */
 .hero {
   background-image: url('Phones.png');
@@ -69,8 +74,8 @@ header nav a {
 .hero a {
   font-size: 1rem;
   text-decoration: none;
-  color: #585859;
-  border: 1px solid #585859;
+  color: #666667;
+  border: 1px solid #666667;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-align: center;
@@ -78,7 +83,7 @@ header nav a {
 
 /* Add hover effect to the hero link */
 .hero a:hover {
-  background-color: #585859;
+  background-color: #666667;
   color: #efefef;
   transition: background-color 0.3s, color 0.3s;
 }     
