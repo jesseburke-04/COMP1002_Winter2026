@@ -38,11 +38,23 @@ header nav a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* Hero Border and Spacing */
+.hero {
   border: 1px solid #dfe3ea;
   border-radius: 14px;
   padding: 2rem;
-  margin: 1.5rem auto;
-  max-width: 1050px;
+  margin: 1.5rem 30px;
+  box-sizing: border-box;
+}
+
+/* Hero Flexbox Layout */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Product higlights section using grid */
