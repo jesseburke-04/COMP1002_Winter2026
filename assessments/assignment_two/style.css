@@ -33,23 +33,14 @@ header nav a {
 }
 
 /* Styling Hero Section */
-.hero {
-  background-image: url('Phones.png');
+.hero {background-image: url('Phones.png');
   background-size: 10px 30px;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 500px;
-}
-
-/* Hero Border and Spacing */
-.hero {
   padding: 2rem;
   margin: 0;
   box-sizing: border-box;
-}
-
-/* Hero Flexbox Layout */
-.hero {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,7 +55,6 @@ header nav a {
   gap: 1rem;
   margin-bottom: 1rem;
 }
-
 
 
 
