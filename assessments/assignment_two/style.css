@@ -413,7 +413,7 @@ footer {
 }
 
 .footer-copy i {
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: #262525;
 }
 
@@ -425,6 +425,26 @@ footer {
 .footer-section h2 {
   display: flex;
   align-items: flex-start;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: #262525;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+}
+
+.footer-section li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+  font-size: 0.5rem;
+  text-decoration: none;
+  color: #666667;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
 }
