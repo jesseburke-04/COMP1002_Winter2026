@@ -96,7 +96,7 @@ header nav a:hover {
   margin-bottom: 1rem;
 }
 
-/* Article 1 */
+/* Another Headline 1 */
 .product-highlights article:nth-child(1) {
   background-image: url('anotherheadline1.png');
   background-size: 100%;
@@ -114,10 +114,20 @@ header nav a:hover {
 }
 
 .product-highlights article:nth-child(1) h2 {
-  
+  font-size: 2rem;
+  font-weight: normal;
+  color: #e7e7ea;
+  margin-bottom: 0.5px;
 }
 
-/* Article 2 */
+.product-highlights article:nth-child(1) p {
+  font-size: 1rem;
+  color: #e7e7ea;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+/* Another Headline 2 */
 .product-highlights article:nth-child(2) {
   background-image: url('anotherheadline2.png');
   background-size: 100%;
@@ -134,7 +144,7 @@ header nav a:hover {
   text-align: center;
 }
 
-/* Article 3 */
+/* Another Headline 3 */
 .product-highlights article:nth-child(3) {
   background-image: url('anotherheadline2.png');
   background-size: 100%;
@@ -151,7 +161,7 @@ header nav a:hover {
   text-align: center;
 }
 
-/* Article 4 */
+/* Another Headline 4 */
 .product-highlights article:nth-child(4) {
   background-image: url('anotherheadline3.png');
   background-size: 100%;
@@ -168,7 +178,7 @@ header nav a:hover {
   text-align: center;
 }
 
-/* Article 5 */
+/* Another Headline 5 */
 .product-highlights article:nth-child(5) {
   background-image: url('anotherheadline4.png');
   background-size: 100%;
@@ -185,7 +195,7 @@ header nav a:hover {
   text-align: center;
 }
 
-/* Article 6 */
+/* Another Headline 6 */
 .product-highlights article:nth-child(6) {
   background-image: url('anotherheadline4.png');
   background-size: 100%;
@@ -202,7 +212,7 @@ header nav a:hover {
   text-align: center;
 }
 
-/* Article 7 */
+/* Another Headline 7 */
 .product-highlights article:nth-child(7) {
   background-image: url('anotherheadline4.png');
   background-size: 100%;
@@ -219,7 +229,7 @@ header nav a:hover {
   text-align: center;
 }
 
-/* Article 8 */
+/* Another Headline 8 */
 .product-highlights article:nth-child(8) {
   background-image: url('anotherheadline4.png');
   background-size: 100%;
