@@ -361,3 +361,16 @@ footer {
   background-color: var(--background-color);
   justify-content: center;
 }
+
+.footer-copy {
+  font-size: 0.5rem;
+}
+
+.footer-section {
+  font-size: 1rem;
+  margin: 2rem;
+}
+
+.footer-section h2 {
+  font-size: 0.75rem;
+}
