@@ -39,7 +39,7 @@ header nav a:hover {
 
 /* Styling Hero Section */
 .hero {
-  background-image: url('Phones.png');
+  background-image: url('phones.png');
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
