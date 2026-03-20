@@ -117,11 +117,12 @@ header nav a:hover {
   font-size: 2rem;
   font-weight: normal;
   color: #e7e7ea;
+  margin-top: 30px;
   margin-bottom: 0.5px;
 }
 
 .product-highlights article:nth-child(1) p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #e7e7ea;
   margin-bottom: 2px;
   text-align: center;
