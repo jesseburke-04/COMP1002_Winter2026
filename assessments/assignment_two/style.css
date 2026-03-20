@@ -352,7 +352,6 @@ header nav a:hover {
   text-align: center;
 }
 
-/* Footer using grid layout */
 footer {
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -367,13 +366,12 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin: 1rem 0;
+  margin: 0;
   font-size: 0.75rem;
 }
 
 .footer-copy i {
   font-size: 1.5rem;
-  margin 0 2rem;
   color: #262525;
 }
 
@@ -383,8 +381,6 @@ footer {
 }
 
 .footer-section h2 {
-  display: flex;
-  align-items: flex-start;
   font-size: 1.5rem;
   font-weight: normal;
   color: #262525;
@@ -396,6 +392,8 @@ footer {
   padding: 0;
   margin: 0 0 10px 0.5rem;
 }
+
+/* Footer using grid layout */
 
 .footer-section li {
   font-size: 1.2rem;
