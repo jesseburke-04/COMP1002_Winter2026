@@ -409,7 +409,7 @@ footer {
   flex-direction: column;
   gap: 0.5rem;
   margin: 1rem 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .footer-copy i {
@@ -425,7 +425,7 @@ footer {
 .footer-section h2 {
   display: flex;
   align-items: flex-start;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #262525;
 }
 
@@ -440,7 +440,7 @@ footer {
 }
 
 .footer-section a {
-  font-size: 0.5rem;
+  font-size: 0.875rem;
   text-decoration: none;
   color: #666667;
 }
