@@ -355,8 +355,9 @@ header nav a:hover {
 /* Footer using grid layout */
 footer {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, auto);
   gap: 1rem;
   padding: 2rem;
   background-color: var(--background-color);
+  justify-content: center;
 }
