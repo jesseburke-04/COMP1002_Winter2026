@@ -1,17 +1,19 @@
 /* Styling Assignment Two - using Flexbox and Grid layout */
-
+/*A universal attribute to make CSS easier */
 :root {
   --text-font: Arial, sans-serif;
   --background-color: #f0f0f5;
   box-sizing: border-box;
 }
 
+/*The main content */
 body {
   font-family: var(--text-font);
   background-color: var(--background-color);
   margin: 0;
 }
 
+/*Styling the top of the page*/
 header {
   background-color: #212122;
   height: 50px;
@@ -32,12 +34,13 @@ header nav a {
   font-size: 16px;
 }
 
+/*Adding a hover effect that changes the text color*/
 header nav a:hover {
   color: #ffffff;
   transition: color 0.2s;
 }
 
-/* Styling Hero Section */
+/* Styling Hero Section using flexbox*/
 .hero {
   background-image: url('phones.png');
   background-size: 100%;
@@ -54,7 +57,7 @@ header nav a:hover {
   text-align: center;
 }
 
-/* Hero Heading */
+/*the hero sections heading */
 .hero h1 {
   font-size: 56px;
   font-weight: normal;
@@ -62,7 +65,7 @@ header nav a:hover {
   margin-bottom: 0.5px;
 }
 
-/* Hero Paragraph */
+/*the hero sections paragraph */
 .hero p {
   font-size: 1.2rem;
   color: #2a2a2a;
@@ -70,7 +73,7 @@ header nav a:hover {
   text-align: center;
 }
 
-/* Hero Link */
+/*the hero sections link */
 .hero a {
   font-size: 1rem;
   text-decoration: none;
@@ -88,7 +91,7 @@ header nav a:hover {
   transition: background-color 0.3s, color 0.3s;
 }     
 
-/* Product higlights section using grid */
+/*the Product higlights section using grid layout */
 .product-highlights {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -96,6 +99,7 @@ header nav a:hover {
   margin-bottom: 1rem;
 }
 
+/*since all of these parts are the same, use the same code! */
 /* Another Headline 1 */
 .product-highlights article:nth-child(1) {
   background-image: url('anotherheadline1.png');
@@ -113,6 +117,7 @@ header nav a:hover {
   text-align: center;
 }
 
+/*styling the heading */
 .product-highlights article:nth-child(1) h2 {
   font-size: 30px;
   font-weight: normal;
@@ -121,6 +126,7 @@ header nav a:hover {
   margin-bottom: 0.5px;
 }
 
+/*styling the paragraph */
 .product-highlights article:nth-child(1) p {
   font-size: 1.2rem;
   color: #e7e7ea;
@@ -145,6 +151,7 @@ header nav a:hover {
   text-align: center;
 }
 
+/*styling the heading */
 .product-highlights article:nth-child(2) h2 {
   font-size: 30px;
   font-weight: normal;
@@ -153,6 +160,7 @@ header nav a:hover {
   margin-bottom: 0.5px;
 }
 
+/*styling the paragraph */
 .product-highlights article:nth-child(2) p {
   font-size: 1.2rem;
   color: #262525;
@@ -177,6 +185,7 @@ header nav a:hover {
   text-align: center;
 }
 
+/*styling the heading */
 .product-highlights article:nth-child(3) h2 {
   font-size: 30px;
   font-weight: normal;
@@ -185,6 +194,7 @@ header nav a:hover {
   margin-bottom: 0.5px;
 }
 
+/*styling the paragraph */
 .product-highlights article:nth-child(3) p {
   font-size: 1.2rem;
   color: #262525;
@@ -209,6 +219,7 @@ header nav a:hover {
   text-align: center;
 }
 
+/*styling the heading */
 .product-highlights article:nth-child(4) h2 {
   font-size: 30px;
   font-weight: normal;
@@ -217,6 +228,7 @@ header nav a:hover {
   margin-bottom: 0.5px;
 }
 
+/*styling the paragraph */
 .product-highlights article:nth-child(4) p {
   font-size: 1.2rem;
   color: #e7e7ea;
@@ -241,6 +253,7 @@ header nav a:hover {
   text-align: center;
 }
 
+/*styling the heading */
 .product-highlights article:nth-child(5) h2 {
   font-size: 30px;
   font-weight: normal;
@@ -249,6 +262,7 @@ header nav a:hover {
   margin-bottom: 0.5px;
 }
 
+/*styling the paragraph */
 .product-highlights article:nth-child(5) p {
   font-size: 1.2rem;
   color: #262525;
@@ -273,6 +287,7 @@ header nav a:hover {
   text-align: center;
 }
 
+/*styling the heading */
 .product-highlights article:nth-child(6) h2 {
   font-size: 30px;
   font-weight: normal;
@@ -281,6 +296,7 @@ header nav a:hover {
   margin-bottom: 0.5px;
 }
 
+/*styling the paragraph */
 .product-highlights article:nth-child(6) p {
   font-size: 1.2rem;
   color: #262525;
@@ -305,6 +321,7 @@ header nav a:hover {
   text-align: center;
 }
 
+/*styling the heading */
 .product-highlights article:nth-child(7) h2 {
   font-size: 30px;
   font-weight: normal;
@@ -313,6 +330,7 @@ header nav a:hover {
   margin-bottom: 0.5px;
 }
 
+/*styling the paragraph */
 .product-highlights article:nth-child(7) p {
   font-size: 1.2rem;
   color: #262525;
@@ -337,6 +355,7 @@ header nav a:hover {
   text-align: center;
 }
 
+/*styling the heading */
 .product-highlights article:nth-child(8) h2 {
   font-size: 30px;
   font-weight: normal;
@@ -345,6 +364,7 @@ header nav a:hover {
   margin-bottom: 0.5px;
 }
 
+/*styling the paragraph */
 .product-highlights article:nth-child(8) p {
   font-size: 1.2rem;
   color: #262525;
@@ -352,6 +372,7 @@ header nav a:hover {
   text-align: center;
 }
 
+/*the Footer using grid layout */
 footer {
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -370,12 +391,14 @@ footer {
   font-size: 0.75rem;
 }
 
+/*Added icon to make the provided website! */
 .footer-copy i {
   font-size: 1.5rem;
   color: #262525;
   padding-top: 1.5rem;
 }
 
+/*styling the heading of the list and the bullet points! */
 .footer-section {
   font-size: 1rem;
   margin: 0 2rem 0 2rem;
@@ -395,8 +418,6 @@ footer {
   margin: 2px 0 2px 0.5rem;
 }
 
-/* Footer using grid layout */
-
 .footer-section li {
   font-size: 1.2rem;
   margin: 2px 0 2px 0.5rem;
@@ -408,6 +429,7 @@ footer {
   color: #666667;
 }
 
+/*adding a hover effect, which underlines when hovered */
 .footer-section a:hover {
   text-decoration: underline;
 }
