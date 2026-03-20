@@ -370,6 +370,11 @@ footer {
   font-size: 1rem;
 }
 
+.footer-copy i {
+  font-size: 2rem;
+  color: #262525;
+}
+
 .footer-section {
   font-size: 1rem;
   margin: 0;
