@@ -145,6 +145,21 @@ header nav a:hover {
   text-align: center;
 }
 
+.product-highlights article:nth-child(2) h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #262525;
+  margin-top: 60px;
+  margin-bottom: 0.5px;
+}
+
+.product-highlights article:nth-child(2) p {
+  font-size: 1.2rem;
+  color: #262525;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
 /* Another Headline 3 */
 .product-highlights article:nth-child(3) {
   background-image: url('anotherheadline2.png');
@@ -159,6 +174,21 @@ header nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  text-align: center;
+}
+
+.product-highlights article:nth-child(3) h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #262525;
+  margin-top: 60px;
+  margin-bottom: 0.5px;
+}
+
+.product-highlights article:nth-child(3) p {
+  font-size: 1.2rem;
+  color: #262525;
+  margin-bottom: 2px;
   text-align: center;
 }
 
@@ -179,6 +209,21 @@ header nav a:hover {
   text-align: center;
 }
 
+.product-highlights article:nth-child(4) h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #e7e7ea;
+  margin-top: 60px;
+  margin-bottom: 0.5px;
+}
+
+.product-highlights article:nth-child(4) p {
+  font-size: 1.2rem;
+  color: #e7e7ea;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
 /* Another Headline 5 */
 .product-highlights article:nth-child(5) {
   background-image: url('anotherheadline4.png');
@@ -193,6 +238,21 @@ header nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  text-align: center;
+}
+
+.product-highlights article:nth-child(5) h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #262525;
+  margin-top: 60px;
+  margin-bottom: 0.5px;
+}
+
+.product-highlights article:nth-child(5) p {
+  font-size: 1.2rem;
+  color: #262525;
+  margin-bottom: 2px;
   text-align: center;
 }
 
@@ -213,6 +273,21 @@ header nav a:hover {
   text-align: center;
 }
 
+.product-highlights article:nth-child(6) h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #262525;
+  margin-top: 60px;
+  margin-bottom: 0.5px;
+}
+
+.product-highlights article:nth-child(6) p {
+  font-size: 1.2rem;
+  color: #262525;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
 /* Another Headline 7 */
 .product-highlights article:nth-child(7) {
   background-image: url('anotherheadline4.png');
@@ -227,6 +302,21 @@ header nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  text-align: center;
+}
+
+.product-highlights article:nth-child(7) h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #262525;
+  margin-top: 60px;
+  margin-bottom: 0.5px;
+}
+
+.product-highlights article:nth-child(7) p {
+  font-size: 1.2rem;
+  color: #262525;
+  margin-bottom: 2px;
   text-align: center;
 }
 
@@ -247,4 +337,18 @@ header nav a:hover {
   text-align: center;
 }
 
+.product-highlights article:nth-child(8) h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #262525;
+  margin-top: 60px;
+  margin-bottom: 0.5px;
+}
+
+.product-highlights article:nth-child(8) p {
+  font-size: 1.2rem;
+  color: #262525;
+  margin-bottom: 2px;
+  text-align: center;
+}
 
