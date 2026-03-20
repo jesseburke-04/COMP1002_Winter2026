@@ -391,14 +391,14 @@ footer {
   font-size: 1.2rem;
   list-style: none;
   padding: 0;
-  margin: 0 0 2px 0.5rem;
+  margin: 2px 0 2px 0.5rem;
 }
 
 /* Footer using grid layout */
 
 .footer-section li {
   font-size: 1.2rem;
-  margin-bottom: 2px;
+  margin: 2px 0 2px 0.5rem;
 }
 
 .footer-section a {
