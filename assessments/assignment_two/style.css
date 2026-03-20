@@ -363,14 +363,14 @@ footer {
 }
 
 .footer-copy {
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 
 .footer-section {
-  font-size: 1rem;
+  font-size: 4rem;
   margin: 2rem;
 }
 
 .footer-section h2 {
-  font-size: 0.75rem;
+  font-size: 4rem;
 }
