@@ -352,11 +352,11 @@ header nav a:hover {
   text-align: center;
 }
 
-/* Footer using grid layout */
+
 footer {
   display: grid;
   grid-template-columns: repeat(5, auto);
-  gap: 3rem;
+  gap: 1rem;
   padding: 2rem;
   background-color: var(--background-color);
   justify-content: center;
@@ -367,31 +367,76 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin: 2rem 0;
-  font-size: 1rem;
+  margin: 0;
+  font-size: 0.75rem;
 }
 
 .footer-copy i {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #262525;
 }
 
 .footer-section {
   font-size: 1rem;
-  margin: 0;
+  margin: 0 2rem 0 2rem;
+}
+
+.footer-section h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #262525;
+}
+
+.footer-section ul {
+  font-size: 1.2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0.5rem;
+}
+
+/* Footer using grid layout */
+footer {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 1rem;
+  padding: 2rem;
+  background-color: var(--background-color);
+  justify-content: center;
+  align-items: start;
+}
+
+.footer-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  font-size: 0.75rem;
+}
+
+.footer-copy i {
+  font-size: 1.5rem;
+  margin 0 2rem;
+  color: #262525;
+}
+
+.footer-section {
+  font-size: 1rem;
+  margin: 0 2rem 0 2rem;
 }
 
 .footer-section h2 {
   display: flex;
   align-items: flex-start;
-  font-size: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: normal;
   color: #262525;
 }
 
 .footer-section ul {
+  font-size: 1.2rem;
   list-style: none;
   padding: 0;
-  margin: 0.5rem 0 0 0;
+  margin: 0 0 10px 0.5rem;
 }
 
 .footer-section li {
