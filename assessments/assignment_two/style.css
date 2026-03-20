@@ -360,6 +360,7 @@ footer {
   padding: 2rem;
   background-color: var(--background-color);
   justify-content: center;
+  align-items: start;
 }
 
 .footer-copy {
