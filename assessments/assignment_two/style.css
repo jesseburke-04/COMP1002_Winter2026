@@ -352,3 +352,11 @@ header nav a:hover {
   text-align: center;
 }
 
+/* Footer using grid layout */
+footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+  background-color: var(--background-color);
+}
