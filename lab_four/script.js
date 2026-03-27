@@ -10,7 +10,7 @@ document.getElementById("welcomeForm").addEventListener("submit", function(event
   });
 
 //Theme Button: Find ID then wait until click is triggered.
-document.getElementById("themeToggle").addEventListener("click", function() {
+document.getElementById("themebutton").addEventListener("click", function() {
     document.body.classList.toggle("dark-mode");
     if (document.body.classList.contains("dark-mode")) {
         this.textContent = "Toggle Light Mode";
