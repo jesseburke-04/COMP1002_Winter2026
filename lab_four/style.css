@@ -42,5 +42,6 @@ button:hover {
 .dark-mode input {
     background-color: #333;
     color: white;
+    border-radius: 16px;
     border-color: white;
 }
