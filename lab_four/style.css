@@ -1,3 +1,4 @@
+/* Form styling */
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -32,7 +33,7 @@ button:hover {
     transition: background-color 0.3s ease;
 }
 
-/* Dark mode class */
+/*Dark mode styling*/
 .dark-mode {
     background-color: #222;
     color: white;
