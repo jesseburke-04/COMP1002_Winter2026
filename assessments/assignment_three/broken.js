@@ -4,7 +4,8 @@
 let helloBtn = document.querySelector("#helloBtn");
 let greetingOutput = document.querySelector("#greetingOutput");
 
-let themeBtn = document.querySelector("#themeButton");
+//Problem:1. The line is using the wrong variable name for the ID selector (themeBtn).
+let themeBtn = document.querySelector("#themeBtn");
 
 let messageInput = document.querySelector("#messageInput");
 let liveOutput = document.querySelector("#liveOutput");
@@ -20,16 +21,20 @@ helloBtn.addEventListener("click", function() {
 
 // 2. Theme Toggle
 themeBtn.addEventListener("click", function() {
-    document.body.classList.toggle("darkmode");
+    //Problem: 2. This line is using the wrong class name provided by CSS (missing the hyphen).
+    document.body.classList.toggle("dark-mode");
 });
 
 // 3. Live Input
-messageInput.addEventListener("change", function() {
-    liveOutput.textContent = messageinput.value;
+//Problem: 3. This line is using the wrong event name(input).
+messageInput.addEventListener("input", function() {
+    //Problem: 3.5 This line had a miss spelling in the variable name (messageInput).
+    liveOutput.textContent = messageInput.value;
 });
 
 // 4. Welcome Form
-welcomeForm.addEventListener("submit", function() {
+welcomeForm.addEventListener("submit", function(event) {
+    //Problem: 4. This line does not declare the event parameter, which makes it the wbepage reload.
     event.preventDefault();
     formOutput.textContent = "Welcome, " + nameInput.value;
 });
